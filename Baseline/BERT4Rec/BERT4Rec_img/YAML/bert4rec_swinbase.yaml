@@ -1,0 +1,75 @@
+model: MOBERT4Rec
+
+
+seed: 2020
+encoder_name: 'swin-base-patch4-window7-224'
+encoder_source: 'transformers'
+
+
+
+use_modality: True
+checkpoint_dir: Saved/MOBERT4Rec
+MAX_ITEM_LIST_LENGTH: 20
+
+n_layers: 2
+n_heads: 4
+embedding_size: 1024
+inner_size: 1
+hidden_dropout_prob: 0.1
+attn_dropout_prob: 0.1
+hidden_act: 'gelu'
+layer_norm_eps: 1e-12
+initializer_range: 0.02
+mask_ratio: 0.6
+
+
+data_path: ../data
+dataset: bisc
+USER_ID_FIELD: user_id
+ITEM_ID_FIELD: item_id
+
+image_path: Bili_2M.lmdb  # load lmdb database
+
+fine_tune_arg: {
+    tune_scale: 0, 
+    pre_trained: True,
+    activation: 'relu',
+    dnn_layers: [],
+    method: 'pool'                        
+}
+
+
+metric_decimal_place: 7
+leave_num_list: [1,1]
+
+# Training and evaluation config
+epochs: 220
+
+train_batch_size: 6  
+eval_batch_size: 1280
+
+neg_sampling_num: 1
+neg_sampling: {'uniform' : 1}
+
+
+
+optim_args: {
+    learner: AdamW,
+    modal_lr: 0.0001,
+    rec_lr: 0.0001,
+    modal_decay: 0,
+    rec_decay: 0.1
+}
+
+
+eval_step: 1 
+stopping_step: 20
+
+
+topk: [10]
+metrics: ['Recall', 'NDCG']
+valid_metric: NDCG@10
+
+
+
+

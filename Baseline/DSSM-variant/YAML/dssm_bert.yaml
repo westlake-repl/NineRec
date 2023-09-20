@@ -1,0 +1,53 @@
+model: MOYTDNN
+seed: 2020
+
+encoder_type: ~
+use_modality: True
+checkpoint_dir: MOYTDNN/saved
+MAX_ITEM_LIST_LENGTH: 20
+
+embedding_size: 2048
+dropout_prob: 0
+mlp_hidden_size: []
+
+
+data_path: ../data
+dataset: bisc
+USER_ID_FIELD: user_id
+ITEM_ID_FIELD: item_id
+
+
+
+# Training and evaluation config
+
+
+metric_decimal_place: 7
+
+
+# Training and evaluation config
+epochs: 220
+
+train_batch_size: 32
+eval_batch_size: 1280
+
+
+optim_args: {
+    learner: AdamW,
+    modal_lr: 0.00001,
+    rec_lr: 0.0005,
+    modal_decay: 0,
+    rec_decay: 0
+}
+
+neg_sampling_num: 1
+neg_sampling: {'uniform' : 1}
+
+eval_step: 1
+stopping_step: 30
+
+
+topk: [10]
+metrics: ['Recall', 'NDCG']
+valid_metric: NDCG@10
+metric_decimal_place: 7
+
