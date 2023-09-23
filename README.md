@@ -10,6 +10,8 @@ We have released all 9 downstream datasets, and we will provide access to the so
 <!-- Download link: https://sandbox.zenodo.org/record/1153424#.Y9dALnZByw4 -->
 Download link: https://sandbox.zenodo.org/record/1242127
 
+If you are interested in conducting pre-training, you can find a relatively large image dataset available at https://github.com/westlake-repl/IDvs.MoRec. Please follow the provided instructions to utilize the dataset properly, as it is not fully published yet. If you want to pre-train on a very large-scale image/video/text dataset for a foundation Recsys model, contact our leading authors by email.
+
 <!-- We also provide an auto-downloader to make each image easy to download and available permanently. Run `NineRec_downloader.exe` to start downloading. (still 1000 images per dataset before acceptance) -->
 
 <!-- Additionally, we offer an auto-downloader to simplify the process of downloading each image and make them permanently available. To initiate the download process, run the `NineRec_downloader.exe` file. Currently, the auto-downloader is only compatible with Windows systems, but we will provide a Linux version after acceptance. -->
