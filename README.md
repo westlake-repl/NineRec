@@ -35,3 +35,5 @@ Run `train.py` for pre-training and transferring. Run `test.py` for testing.
 
 # Leaderboard
 coming soon.
+
+实验室招聘科研助理、实习生、博士生和博后，请联系通讯作者。
