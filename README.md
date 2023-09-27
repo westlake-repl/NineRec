@@ -8,7 +8,9 @@
 We have released all 9 downstream datasets, and we will provide access to the source dataset and code (which are already included in this submission) once the paper is accepted.
 
 <!-- Download link: https://sandbox.zenodo.org/record/1153424#.Y9dALnZByw4 -->
-Download link: https://sandbox.zenodo.org/record/1242127
+Download link: 
+- Zenodo:https://sandbox.zenodo.org/record/1242127
+- Google Drive: https://drive.google.com/file/d/1LOaZLKiVo80pBw0hXYyNyYnww0smb6Ub/view?usp=drive_link
 
 If you are interested in conducting pre-training, you can find a relatively large image dataset available at https://github.com/westlake-repl/IDvs.MoRec. Please follow the provided instructions to utilize the dataset properly, as it is not fully published yet. If you want to pre-train on a very large-scale image/video/text dataset for a foundation Recsys model, contact our leading authors by email.
 
