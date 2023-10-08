@@ -20,6 +20,18 @@ If you are interested in conducting pre-training, you can find a relatively larg
 
 <!-- <div align=center><img width="150" src="https://github.com/anonymous-ninerec/NineRec/blob/main/Downloader/example_image.png"/></div> -->
 
+# Citation
+If you use our dataset, code or find NineRec useful in your work, please cite our paper as:
+
+```bib
+@article{zhang2023ninerec,
+      title={NineRec: A Benchmark Dataset Suite for Evaluating Transferable Recommendation}, 
+      author={Jiaqi Zhang and Yu Cheng and Yongxin Ni and Yunzhu Pan and Zheng Yuan and Junchen Fu and Youhua Li and Jie Wang and Fajie Yuan},
+      journal={arXiv preprint arXiv:2309.07705},
+      year={2023}
+}
+```
+
 # Benchmark
 ## Environments
 ```
