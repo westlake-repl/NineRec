@@ -48,4 +48,8 @@ Run `train.py` for pre-training and transferring. Run `test.py` for testing.
 # Leaderboard
 coming soon.
 
+# Kind Reminder
+Note that you should not perform secondary processing on the dataset provided in this paper and offer a new download. If you need to do so, we encourage you to open source only the code for data processing and cite our work for data downloading and local processing.
+
+# News
 实验室招聘科研助理、实习生、博士生和博后，请联系通讯作者。
