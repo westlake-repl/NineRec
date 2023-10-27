@@ -50,7 +50,7 @@ Run `train.py` for pre-training and transferring. Run `test.py` for testing.
 # Leaderboard
 coming soon.
 
-# Tenre
+# Tenrec
 Tenrec (https://github.com/yuangh-x/2022-NIPS-Tenrec) is the sibling dataset of NineRec, which includes multiple user feedback and platforms. It is suitable for studying ID-based transfer and lifelong learning.   
 
 # News
