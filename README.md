@@ -5,7 +5,7 @@
 
 <!-- **We release a sample of 1000 images per dataset. All datasets and code (already attached here) will be provided once the paper is accepted..** -->
 
-We have released all 9 downstream datasets, and we will provide access to the source dataset and code (which are already included in this submission) once the paper is accepted. To acquire the complete NineRec dataset, kindly reach out to the corresponding author via email. If you have an innovative idea for building a foundational recommendation model but require a large dataset and computational resources, consider joining our lab as an intern. We can provide access to 100 NVIDIA 80G A100 GPUs and a billion-level dataset of user-video/image/text interactions.
+We have released all 9 downstream datasets, and we will provide access to the source dataset once the paper is accepted. To acquire the complete NineRec dataset, kindly reach out to the corresponding author via email. If you have an innovative idea for building a foundational recommendation model but require a large dataset and computational resources, consider joining our lab as an intern. We can provide access to 100 NVIDIA 80G A100 GPUs and a billion-level dataset of user-video/image/text interactions.
 
 <!-- Download link: https://sandbox.zenodo.org/record/1153424#.Y9dALnZByw4 -->
 Download link: 
@@ -31,6 +31,8 @@ If you use our dataset, code or find NineRec useful in your work, please cite ou
       year={2023}
 }
 ```
+> :warning: **Caution**: It's prohibited to privately modify the dataset and offer secondary downloads. If you've made alterations to the dataset in your work, you are encouraged to open-source the data processing code, so others can benefit from your methods.
+
 
 # Benchmark
 ## Environments
@@ -48,8 +50,8 @@ Run `train.py` for pre-training and transferring. Run `test.py` for testing.
 # Leaderboard
 coming soon.
 
-# Kind Reminder
-Note that you should not perform secondary processing on the dataset provided in this paper and offer a new download. If you need to do so, we encourage you to open source only the code for data processing and cite our work for data downloading and local processing.
+# Tenre
+ 
 
 # News
 实验室招聘科研助理、实习生、博士生和博后，请联系通讯作者。
