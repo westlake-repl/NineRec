@@ -5,7 +5,7 @@
 
 <!-- **We release a sample of 1000 images per dataset. All datasets and code (already attached here) will be provided once the paper is accepted..** -->
 
-We have released all 9 downstream datasets, and we will provide access to the source dataset once the paper is accepted. To acquire the complete NineRec dataset, kindly reach out to the corresponding author via email. If you have an innovative idea for building a foundational recommendation model but require a large dataset and computational resources, consider joining our lab as an intern. We can provide access to 100 NVIDIA 80G A100 GPUs and a billion-level dataset of user-video/image/text interactions.
+We have released all 9 downstream datasets and texts of source dataset Bili_500K. We will provide access to the full source dataset once the paper is accepted. To acquire the complete NineRec dataset, kindly reach out to the corresponding author via email. If you have an innovative idea for building a foundational recommendation model but require a large dataset and computational resources, consider joining our lab as an intern. We can provide access to 100 NVIDIA 80G A100 GPUs and a billion-level dataset of user-video/image/text interactions.
 
 <!-- Download link: https://sandbox.zenodo.org/record/1153424#.Y9dALnZByw4 -->
 Download link: 
