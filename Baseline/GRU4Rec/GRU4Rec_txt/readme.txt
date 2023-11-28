@@ -1,0 +1,1 @@
+To run the baseline, see `process_interaction_data.ipynb` to process the interaction data, run `generate_lmdb.py` to get lmdb database for images when you run image baselines. Execute the following Python scripts: 'main.py' to run the corresponding baseline, the data path, model parameters can be modified by changing the `yaml` file in this folder.
