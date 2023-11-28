@@ -45,7 +45,7 @@ python==3.9.12
 ## Dataset Preparation
 Run `get_lmdb.py` to get lmdb database for image loading. Run `get_behaviour.py` to convert the user-item pairs into item sequences format.
 ## Run Experiments
-Run `train.py` for pre-training and transferring. Run `test.py` for testing.
+Run `train.py` for pre-training and transferring. Run `test.py` for testing. See more specific instructions in each baseline.
 
 # Leaderboard
 coming soon.
