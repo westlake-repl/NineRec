@@ -12,7 +12,8 @@ Download link:
 <!-- **- Zenodo:https://sandbox.zenodo.org/record/1242127** -->
 - Google Drive: https://drive.google.com/file/d/1C58i4o4S-Bxwu3MgqQn7S0lHGzg5BgV6/view?usp=sharing
 
-If you are interested in conducting pre-training, you can find a relatively large image dataset available at https://github.com/westlake-repl/IDvs.MoRec. Please follow the provided instructions to utilize the dataset properly, as it is not fully published yet. If you want to pre-train on a very large-scale image/video/text dataset for a foundation Recsys model, contact our leading authors by email.
+If you are interested in pre-training on a larger dataset, please visit our PixelRec: https://github.com/westlake-repl/PixelRec. PixelRec can be used as the source data set of NineRec, and these downstream tasks of NineRec are either cross-domain/platform scenarios. 
+
 
 <!-- We also provide an auto-downloader to make each image easy to download and available permanently. Run `NineRec_downloader.exe` to start downloading. (still 1000 images per dataset before acceptance) -->
 
