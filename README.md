@@ -5,7 +5,7 @@
 
 <!-- **We release a sample of 1000 images per dataset. All datasets and code (already attached here) will be provided once the paper is accepted..** -->
 
-We have released all 9 downstream datasets (text and images) and texts of source dataset Bili_500K. We will provide access to the full source dataset very soon. 
+We have released all data (text and images) for the 9 downstream tasks as well as the text data for Bili_500K. We will provide access to the full source dataset very soon. 
 
 <!-- Download link: https://sandbox.zenodo.org/record/1153424#.Y9dALnZByw4 -->
 Download link: 
