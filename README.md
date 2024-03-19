@@ -1,5 +1,5 @@
 <p align="center" width="100%">
-  <img src='https://github.com/CheungKaKei/Ninerec/blob/main/NineRec_logo_banner_v6-2.png' width="100%">
+  <img src='https://github.com/westlake-repl/NineRec/blob/main/assets/NineRec_logo_banner_v6-2.png' width="100%">
 </p>
 
 # [TPAMI 2024] NineRec: A Benchmark Dataset Suite for Evaluating Transferable Recommendation
@@ -45,8 +45,8 @@ Download link:
 If you are interested in pre-training on a larger dataset, please visit our PixelRec: https://github.com/westlake-repl/PixelRec. PixelRec can be used as the source data set of NineRec, and these downstream tasks of NineRec are cross-domain/platform scenarios. 
 
 <p align="center" width="100%">
-  <img src='https://github.com/CheungKaKei/Ninerec/blob/main/Figure1.png' width="90%">
-  <img src='https://github.com/CheungKaKei/Ninerec/blob/main/Figure3.png' width="90%">
+  <img src='https://github.com/westlake-repl/NineRec/blob/main/assets/NineRec_figure1.png' width="90%">
+  <img src='https://github.com/westlake-repl/NineRec/blob/main/assets/NineRec_figure2.png' width="90%">
 </p>
 
 <!-- We also provide an auto-downloader to make each image easy to download and available permanently. Run `NineRec_downloader.exe` to start downloading. (still 1000 images per dataset before acceptance) -->
@@ -84,7 +84,7 @@ Run `train.py` for pre-training and transferring. Run `test.py` for testing. See
 # Baseline_Evaluation
 
 <p align="center" width="100%">
-  <img src='https://github.com/CheungKaKei/Ninerec/blob/main/Figure4.png' width="90%">
+  <img src='https://github.com/westlake-repl/NineRec/blob/main/assets/NineRec_figure3.png' width="90%">
 </p>
 
 # Leaderboard
