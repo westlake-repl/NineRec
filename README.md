@@ -1,6 +1,36 @@
-# NineRec: A Benchmark Dataset Suite for Evaluating Transferable Recommendation （accepted by TPAMI）
+<p align="center" width="100%">
+  <img src='https://github.com/CheungKaKei/Ninerec/blob/main/NineRec_logo_banner_v6-2.png' width="100%">
+</p>
 
-# Dataset （releasing whole dataset soon）
+# [TPAMI 2024] NineRec: A Benchmark Dataset Suite for Evaluating Transferable Recommendation
+
+<a href="https://arxiv.org/pdf/2309.07705.pdf" alt="arXiv"><img src="https://img.shields.io/badge/arXiv-2309.07705-FAA41F.svg?style=flat" /></a>
+<a href="https://ieeexplore.ieee.org/document/10461053" alt="TPAMI"><img src="https://img.shields.io/badge/TPAMI-2024.3373868-%23002FA7.svg?style=flat" /></a> 
+![Multi-Modal](https://img.shields.io/badge/Task-Multi--Modal-red) 
+![Transfer Learning](https://img.shields.io/badge/Task-Transfer_Learning-red) 
+![Recommendation](https://img.shields.io/badge/Task-Recommendation-red) 
+
+Quick links: 
+[📋Blog](#Blog) |
+[🗃️Download](#Dataset) |
+[📭Citation](#Citation) |
+[🛠️Code](#Training) |
+[🚀Evaluation](#Baseline_Evaluation) |
+[🤗Leaderboard](#Leaderboard) |
+[👀Others](#Tenrec) |
+[💡News](#News)
+
+<p align="center" width="100%">
+  <img src='https://camo.githubusercontent.com/ace7effc2b35cda2c66d5952869af563e851f89e5e1af029cfc9f69c7bebe78d/68747470733a2f2f692e696d6775722e636f6d2f77617856496d762e706e67' width="100%">
+</p>
+
+
+# Blog
+- [Pre-training and Transfer Learning in Recommender System](https://medium.com/@lifengyi_6964/pre-training-and-transfer-learning-in-recommender-system-907b1011be6e)
+- [Recommendation-Systems-without-Explicit-ID-Features-A-Literature-Review](https://github.com/westlake-repl/Recommendation-Systems-without-Explicit-ID-Features-A-Literature-Review)
+
+# Dataset
+*We will release whole dataset soon
 <!-- **Kindly note that collecting data and running these TransRec experiments cost us a lot of money. Our lead suggested us to release a sample of 1000 images per dataset before acceptance. If reviewers want to see the entire datasets or plan to use it now for their research, we are more than happy to provide full datasets. Feel free to inform us in the rebuttal stage.** -->
 
 <!-- **We release a sample of 1000 images per dataset. All datasets and code (already attached here) will be provided once the paper is accepted..** -->
@@ -14,6 +44,10 @@ Download link:
 
 If you are interested in pre-training on a larger dataset, please visit our PixelRec: https://github.com/westlake-repl/PixelRec. PixelRec can be used as the source data set of NineRec, and these downstream tasks of NineRec are cross-domain/platform scenarios. 
 
+<p align="center" width="100%">
+  <img src='https://github.com/CheungKaKei/Ninerec/blob/main/Figure1.png' width="90%">
+  <img src='https://github.com/CheungKaKei/Ninerec/blob/main/Figure3.png' width="90%">
+</p>
 
 <!-- We also provide an auto-downloader to make each image easy to download and available permanently. Run `NineRec_downloader.exe` to start downloading. (still 1000 images per dataset before acceptance) -->
 
@@ -34,8 +68,7 @@ If you use our dataset, code or find NineRec useful in your work, please cite ou
 ```
 > :warning: **Caution**: It's prohibited to privately modify the dataset and offer secondary downloads. If you've made alterations to the dataset in your work, you are encouraged to open-source the data processing code, so others can benefit from your methods.
 
-
-# Benchmark
+# Code
 ## Environments
 ```
 Pytorch==1.12.1
@@ -47,6 +80,12 @@ python==3.9.12
 Run `get_lmdb.py` to get lmdb database for image loading. Run `get_behaviour.py` to convert the user-item pairs into item sequences format.
 ## Run Experiments
 Run `train.py` for pre-training and transferring. Run `test.py` for testing. See more specific instructions in each baseline.
+
+# Baseline_Evaluation
+
+<p align="center" width="100%">
+  <img src='https://github.com/CheungKaKei/Ninerec/blob/main/Figure4.png' width="90%">
+</p>
 
 # Leaderboard
 coming soon.
