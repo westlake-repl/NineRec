@@ -7,6 +7,7 @@
 <a href="https://arxiv.org/pdf/2309.07705.pdf" alt="arXiv"><img src="https://img.shields.io/badge/arXiv-2309.07705-FAA41F.svg?style=flat" /></a>
 <a href="https://ieeexplore.ieee.org/document/10461053" alt="TPAMI"><img src="https://img.shields.io/badge/TPAMI-2024.3373868-%23002FA7.svg?style=flat" /></a> 
 ![Multi-Modal](https://img.shields.io/badge/Task-Multi--Modal-red) 
+![Foundation Model](https://img.shields.io/badge/Task-Foundation_Model-red) 
 ![Transfer Learning](https://img.shields.io/badge/Task-Transfer_Learning-red) 
 ![Recommendation](https://img.shields.io/badge/Task-Recommendation-red) 
 
