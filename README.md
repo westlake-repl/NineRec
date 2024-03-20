@@ -1,5 +1,5 @@
 <p align="center" width="100%">
-  <img src='https://github.com/westlake-repl/NineRec/blob/main/assets/NineRec_logo_banner_v6-2.png' width="100%">
+  <img src='https://github.com/westlake-repl/NineRec/blob/main/assets/NineRec_logo_banner_v6-3.png' width="100%">
 </p>
 
 # [TPAMI 2024] NineRec: A Benchmark Dataset Suite for Evaluating Transferable Recommendation
