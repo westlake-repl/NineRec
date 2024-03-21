@@ -24,14 +24,14 @@ Quick links:
 <p align="center" width="100%">
   <img src='https://camo.githubusercontent.com/ace7effc2b35cda2c66d5952869af563e851f89e5e1af029cfc9f69c7bebe78d/68747470733a2f2f692e696d6775722e636f6d2f77617856496d762e706e67' width="100%">
 </p>
-
+# Note
+In this paper, we evaluate the TransRec model based on end-to-end training of the recommender backbone and item modality encoder, which is computationally expensive. The reason we do this is because so far there is no widely accepted paradigm for pre-training recommendation models. End-to-end training shows better performance than pre-extracted modal features. We hope that NineRec can inspire more effective and efficient methods of pre-training recommendation models, rather than just limiting it to the end-to-end training paradigm.
 
 # Blog
 - [Pre-training and Transfer Learning in Recommender System](https://medium.com/@lifengyi_6964/pre-training-and-transfer-learning-in-recommender-system-907b1011be6e)
 - [Recommendation-Systems-without-Explicit-ID-Features-A-Literature-Review](https://github.com/westlake-repl/Recommendation-Systems-without-Explicit-ID-Features-A-Literature-Review)
 
 # Dataset
-*We will release whole dataset soon
 <!-- **Kindly note that collecting data and running these TransRec experiments cost us a lot of money. Our lead suggested us to release a sample of 1000 images per dataset before acceptance. If reviewers want to see the entire datasets or plan to use it now for their research, we are more than happy to provide full datasets. Feel free to inform us in the rebuttal stage.** -->
 
 <!-- **We release a sample of 1000 images per dataset. All datasets and code (already attached here) will be provided once the paper is accepted..** -->
