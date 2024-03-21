@@ -26,7 +26,7 @@ Quick links:
 </p>
 
 # Note
-In this paper, we evaluate the TransRec model based on end-to-end training of the recommender backbone and item modality encoder, which is computationally expensive. The reason we do this is because so far there is no widely accepted paradigm for pre-training recommendation models. End-to-end training shows better performance than pre-extracted modal features. We hope that NineRec can inspire more effective and efficient methods of pre-training recommendation models, rather than just limiting it to the end-to-end training paradigm.
+In this paper, we evaluate the TransRec model based on end-to-end training of the recommender backbone and item modality encoder, which is computationally expensive. The reason we do this is because so far there is no widely accepted paradigm for pre-training recommendation models. End-to-end training shows better performance than pre-extracted multimodal features. We hope that NineRec can inspire more effective and efficient methods of pre-training recommendation models, rather than just limiting it to the end-to-end training paradigm.
 
 # Blog
 - [Pre-training and Transfer Learning in Recommender System](https://medium.com/@lifengyi_6964/pre-training-and-transfer-learning-in-recommender-system-907b1011be6e)
