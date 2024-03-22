@@ -37,7 +37,7 @@ In this paper, we evaluate the TransRec model based on end-to-end training of th
 
 <!-- **We release a sample of 1000 images per dataset. All datasets and code (already attached here) will be provided once the paper is accepted..** -->
 
-We have released all data (text and images) for the 9 downstream tasks as well as the source-domain text data for Bili_500K. We will provide access to the full source dataset very soon. 
+We have released all data (text and images) for the 9 downstream tasks as well as the source-domain text data for Bili_500K. We will provide access to the full source dataset (image and Bili_2M) very soon. 
 
 <!-- Download link: https://sandbox.zenodo.org/record/1153424#.Y9dALnZByw4 -->
 Download link: 
