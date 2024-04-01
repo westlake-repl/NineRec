@@ -40,9 +40,9 @@ In this paper, we evaluate the TransRec model based on end-to-end training of th
 All datasets have been released!!  If you have any questions about our dataset and code, please email us.
 
 <!-- Download link: https://sandbox.zenodo.org/record/1153424#.Y9dALnZByw4 -->
-Download link: 
+## Download link
 <!-- **- Zenodo:https://sandbox.zenodo.org/record/1242127** -->
-- Google Drive: https://drive.google.com/file/d/1C58i4o4S-Bxwu3MgqQn7S0lHGzg5BgV6/view?usp=sharing
+- Google Drive: https://drive.google.com/file/d/1l5YjemaIYB4wLnnQiPR7z9TFxjMagXa6/view
 
 If you are interested in pre-training on a larger dataset (even than our source dataset), please visit our PixelRec: https://github.com/westlake-repl/PixelRec. PixelRec can be used as the source data set of NineRec, and these downstream tasks of NineRec are cross-domain/platform scenarios. 
 
@@ -56,6 +56,36 @@ If you are interested in pre-training on a larger dataset (even than our source 
 <!-- Additionally, we offer an auto-downloader to simplify the process of downloading each image and make them permanently available. To initiate the download process, run the `NineRec_downloader.exe` file. Currently, the auto-downloader is only compatible with Windows systems, but we will provide a Linux version after acceptance. -->
 
 <!-- <div align=center><img width="150" src="https://github.com/anonymous-ninerec/NineRec/blob/main/Downloader/example_image.png"/></div> -->
+
+## Data Format (take QB as an example)
+- `QB_cover` contains the raw images in JPG format, with item ID as the file name:
+<p align="left" width="100%">
+<img src='https://github.com/westlake-repl/NineRec/blob/main/assets/NineRec_figure4.png' width="20%">
+</p>
+
+- `QB_behaviour.tsv` contains the user-item interactions in item sequence format, where the first field is the user ID and the second field is a sequence of item ID:
+
+User ID     | Item ID Sequence
+------------| ----------------------------------------------------
+u14500 | v17551 v165612 v288299 v14633 v350433
+
+- `QB_pair.csv` contains the user-item interactions in user-item pair format, where the first field is the user ID, the second field is the item ID, and the third field is a timestamp:
+
+User ID     | Item ID  |  Timestamp
+------------| -------- | -------- 
+u14500      | v17551 | (only not provided in QB and TN) 
+
+- `QB_item.csv` contains the raw texts, where the first field is the item ID and the second field is the text in Chinese, and the third field is the text in English:
+
+Item ID     | Text in Chinese  |  Text in English
+------------| -------- | -------- 
+v17551 | 韩国电影，《女教师》 | "Korean Movie, The Governess"
+
+- `QB_url.csv` contains the URL link of items, where the first field is the item ID and the second field is the URL:
+
+Item ID     | URL
+------------| --------
+v17551      | http://puui.qpic.cn/qqvideo_ori/0/a33124itvb6_496_280/0
 
 # Citation
 If you use our dataset, code or find NineRec useful in your work, please cite our paper as:
