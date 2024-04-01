@@ -44,7 +44,7 @@ Download link:
 <!-- **- Zenodo:https://sandbox.zenodo.org/record/1242127** -->
 - Google Drive: https://drive.google.com/file/d/1C58i4o4S-Bxwu3MgqQn7S0lHGzg5BgV6/view?usp=sharing
 
-If you are interested in pre-training on a larger dataset, please visit our PixelRec: https://github.com/westlake-repl/PixelRec. PixelRec can be used as the source data set of NineRec, and these downstream tasks of NineRec are cross-domain/platform scenarios. 
+If you are interested in pre-training on a larger dataset (even than our source dataset), please visit our PixelRec: https://github.com/westlake-repl/PixelRec. PixelRec can be used as the source data set of NineRec, and these downstream tasks of NineRec are cross-domain/platform scenarios. 
 
 <p align="center" width="100%">
   <img src='https://github.com/westlake-repl/NineRec/blob/main/assets/NineRec_figure1.png' width="90%">
