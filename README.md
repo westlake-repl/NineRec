@@ -87,6 +87,9 @@ Item ID     | URL
 ------------| --------
 v17551      | http://puui.qpic.cn/qqvideo_ori/0/a33124itvb6_496_280/0
 
+*Note that source datasets, Bili_2M and its sub-dataset Bili_500K share the same image folder `Source_Bili_2M_cover` for less storage space.  
+
+
 # Citation
 If you use our dataset, code or find NineRec useful in your work, please cite our paper as:
 
