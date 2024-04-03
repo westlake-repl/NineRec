@@ -42,7 +42,7 @@ All datasets have been released!!  If you have any questions about our dataset a
 <!-- Download link: https://sandbox.zenodo.org/record/1153424#.Y9dALnZByw4 -->
 ## Download link
 <!-- **- Zenodo:https://sandbox.zenodo.org/record/1242127** -->
-- Google Drive: https://drive.google.com/file/d/1l5YjemaIYB4wLnnQiPR7z9TFxjMagXa6/view
+- Google Drive: [Source Datasets](https://drive.google.com/file/d/1fR5XB-dC0CDsyZ4BvtUJJn7i3OnWJa-9/view?usp=sharing), [Downstream Datasets](https://drive.google.com/file/d/15RlthgPczrFbP4U7l6QflSImK5wSGP5K/view?usp=sharing)
 
 If you are interested in pre-training on a larger dataset (even than our source dataset), please visit our PixelRec: https://github.com/westlake-repl/PixelRec. PixelRec can be used as the source data set of NineRec, and these downstream tasks of NineRec are cross-domain/platform scenarios. 
 
@@ -63,7 +63,7 @@ If you are interested in pre-training on a larger dataset (even than our source 
 <img src='https://github.com/westlake-repl/NineRec/blob/main/assets/NineRec_figure4.png' width="20%">
 </p>
 
-- `QB_behaviour.tsv` contains the user-item interactions in item sequence format, where the first field is the user ID and the second field is a sequence of item ID:
+- `QB_behaviour.tsv` contains the user-item interactions in item sequence format, where the first field is the user ID and the second field is a sequence of item ID (has been provided in QB and TN, see Dataset Preparation below to generate this file for others):
 
 User ID     | Item ID Sequence
 ------------| ----------------------------------------------------
@@ -85,7 +85,7 @@ v17551 | 韩国电影，《女教师》 | "Korean Movie, The Governess"
 
 Item ID     | URL
 ------------| --------
-v17551      | http://puui.qpic.cn/qqvideo_ori/0/a33124itvb6_496_280/0
+v17551      | (only not provided in QB and TN)
 
 *Note that source datasets, Bili_2M and its smaller version Bili_500K, share the same image folder `Source_Bili_2M_cover` for less storage space.  
 
