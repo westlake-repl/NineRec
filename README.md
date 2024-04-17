@@ -30,6 +30,7 @@ In this paper, we evaluate the TransRec model based on end-to-end training of th
 
 # Blog
 - [Pre-training and Transfer Learning in Recommender System](https://medium.com/@lifengyi_6964/pre-training-and-transfer-learning-in-recommender-system-907b1011be6e)
+- [Multimodal Multi-domain Recommendation System DataSet](https://medium.com/@lifengyi_6964/multimodal-multi-domain-recommendation-system-dataset-e814afcdc68a)
 - [Recommendation-Systems-without-Explicit-ID-Features-A-Literature-Review](https://github.com/westlake-repl/Recommendation-Systems-without-Explicit-ID-Features-A-Literature-Review)
 
 # Dataset
