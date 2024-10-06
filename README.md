@@ -3,6 +3,7 @@
 </p>
 
 # [TPAMI 2024]  [NineRec: A Benchmark Dataset Suite for Evaluating Transferable Recommendation](https://arxiv.org/pdf/2309.07705.pdf)
+Feel free to contact us if you have questions regarding the database: yuanfajie@westlake.edu.cn
 
 <a href="https://arxiv.org/pdf/2309.07705.pdf" alt="arXiv"><img src="https://img.shields.io/badge/arXiv-2309.07705-FAA41F.svg?style=flat" /></a>
 <a href="https://ieeexplore.ieee.org/document/10461053" alt="TPAMI"><img src="https://img.shields.io/badge/TPAMI-2024.3373868-%23002FA7.svg?style=flat" /></a> 
