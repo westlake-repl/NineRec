@@ -41,7 +41,8 @@ All datasets have been released!!  If you have any questions about our dataset a
 <!-- Download link: https://sandbox.zenodo.org/record/1153424#.Y9dALnZByw4 -->
 ## Download link
 <!-- **- Zenodo:https://sandbox.zenodo.org/record/1242127** -->
-- Google Drive: [Source Datasets](https://drive.google.com/file/d/1fR5XB-dC0CDsyZ4BvtUJJn7i3OnWJa-9/view?usp=sharing), [Downstream Datasets](https://drive.google.com/file/d/15RlthgPczrFbP4U7l6QflSImK5wSGP5K/view?usp=sharing)
+- <img src="https://fonts.gstatic.com/s/i/productlogos/googleg/v6/24px.svg" width="18" height="18"/> Google Drive: [Source Datasets](https://drive.google.com/drive/folders/1ewK-3cW30awt7rzlWIuVWDc5LxrDzfDf), [Downstream Datasets](https://drive.google.com/drive/folders/1ASsB6yRDqu0doVLsJmgtMikBgwO9m1TV)
+- <img src="https://cdn.simpleicons.org/baidu" width="17" height="17"/> Baidu Netdisk: [Source Datasets](https://pan.baidu.com/s/1b7DWZKdQIvSzDtXl45USDg?pwd=SRCE), [Downstream Datasets]( https://pan.baidu.com/s/158m42z1IThJrBzgjMaOkCg?pwd=DOWN)
 
 If you are interested in pre-training on a larger dataset (even than our source dataset), please visit our PixelRec: https://github.com/westlake-repl/PixelRec. PixelRec can be used as the source data set of NineRec, and these downstream tasks of NineRec are cross-domain/platform scenarios. 
 
